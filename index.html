@@ -39,35 +39,54 @@
   </head>
 
   <body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+   <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+
     <main>
-        <div class="container clearfix">
-            <figure>
-                <img src="images/fida.png" alt="fida hasan">
-            </figure>
+        <div class="wrapper">
+            <div class="container clearfix">
+                <figure>
+                    <img src="images/fida.png" alt="fida hasan">
+                </figure>
 
-            <div class="content">
-                <h1>Fida Hasan</h1>
-                <h2>Full-Stack Web Developer</h2>
-                <p>I am a freelance web developer from Dhaka, Bangladesh.
-                    Having 5 years+ experiences at the field of web development.
-                </p>
+                <div class="content">
+                    <h1>Fida Hasan</h1>
+                    <h2>Full-Stack Web Developer</h2>
+                    <p>I am a freelance web developer from Dhaka, Bangladesh.
+                        Having 5 years+ experiences at the field of web development.
+                    </p>
 
-                <ul class="contact-list">
-                    <li class="facebook"><a title="visit my facebook profile" href="https://www.facebook.com/fidahasan08" target="blank"><i class="fa fa-facebook"></i> facebook</a></li>
-                    <li class="linkedin"><a title="visit my professional profile at linkedin" href="https://www.linkedin.com/in/fidahasan" target="blank"><i class="fa fa-linkedin"></i></a></li>     
+                    <ul class="contact-list">
+                        <li class="facebook"><a title="visit my facebook profile" href="https://www.facebook.com/fidahasan08" target="blank"><i class="fa fa-facebook"></i> facebook</a></li>
+                        <li class="linkedin"><a title="visit my professional profile at linkedin" href="https://www.linkedin.com/in/fidahasan" target="blank"><i class="fa fa-linkedin"></i></a></li>     
 
-                    <li class="github"><a title="visit my github account" href="https://github.com/fidahasan" target="blank"><i class="fa fa-github"></i> github</a></li>  
-                    <li class="skype"><i class="fa fa-skype"></i> fidahasan08</li>                 
-                </ul>        
+                        <li class="github"><a title="visit my github account" href="https://github.com/fidahasan" target="blank"><i class="fa fa-github"></i> github</a></li>  
+                        <li class="skype"><i class="fa fa-skype"></i> fidahasan08</li>                 
+                    </ul>        
 
-                <ul class="contact-list">                   
-                    <li><i class="fa fa-mobile"></i> +88 01914 561943</li>
-                    <li><i class="fa fa-envelope"></i> fidahasan08@gmail.com</li>
-                </ul>
-            </div> 
+                    <ul class="contact-list">                   
+                        <li><i class="fa fa-mobile"></i> +88 01914 561943</li>
+                        <li><i class="fa fa-envelope"></i> fidahasan08@gmail.com</li>
+                    </ul>
+                </div> 
 
+            </div>
+
+
+            <div class="fb-container">
+                <div class="fb-like" data-href="http://fidahasan.com" data-layout="button" data-action="recommend" data-show-faces="false" data-share="true"></div>
+            </div>
         </div>
-    </main>   
+
+        </main>   
 
     <script type="text/javascript" src="js/google-fonts.js"></script>
   </body>

@@ -10,15 +10,19 @@ main{
 
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
+	
 
+}
+
+.wrapper{
+	max-width: 619px;
+	margin:0 auto;
 }
 
 .container{
 	background: #E4E4E4;	
 	display: inline-block;
-	text-align: left;
-	padding:15px 15px 0 0;
+	text-align: left;	
 	border-radius: 2px;	
 	border:2px solid #fff;
 
@@ -33,6 +37,7 @@ main{
 figure{
 	float:left;
 	margin:0;
+	padding-top:15px;
 }
 
 figure img{
@@ -42,11 +47,12 @@ figure img{
 
 .content{
 	float:left;
-	max-width:400px;
+	max-width:400px;	
+	padding:15px 15px 15px 0;
 }
 
 .content h1{
-	margin:15px 0 0;	
+	margin:0 0;	
 	font-size:29px;
 	font-weight: 700;
 }
@@ -73,10 +79,16 @@ ul.contact-list li.skype {background:#eee;color:#232323;font-size:14px;}
 
 ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
 
+.fb-container{margin-top:15px;}
+
 @media(max-width:600px){
 
 	.container{
 		padding:15px;
 		border:none;
 	}
+
+	.fb-container{padding:0 15px 15px;}
 }
+
+
