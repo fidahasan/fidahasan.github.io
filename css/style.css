@@ -63,9 +63,14 @@ ul.contact-list{padding:0;color:#737272;margin:0;}
 ul.contact-list li{list-style:none;display: inline-block;margin-top:8px;margin-right:6px;}
 ul.contact-list li:last-child{margin-right:0;}
 
+ul.contact-list li.skype,
 ul.contact-list li a{text-decoration: none;color:#fff;padding:3px 8px;border-radius:2px;font-size:12px;}
 ul.contact-list li.facebook a{background:#3953a0;}
 ul.contact-list li.linkedin a{background:#006baa;}
+ul.contact-list li.github a{background:#393939;}
+
+ul.contact-list li.skype {background:#eee;color:#232323;font-size:14px;}
+
 ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
 
 @media(max-width:600px){
