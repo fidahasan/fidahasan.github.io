@@ -25,8 +25,19 @@ main{
 	text-align: left;	
 	border-radius: 2px;	
 	border:2px solid #fff;
+	position: relative;
+	overflow: hidden;
 
 }
+
+.gear-1{
+
+	position: absolute;
+	top:-23px;right:-23px;
+	opacity: .3;
+
+}
+
 
 .clearfix:after{
 	content:'';
@@ -49,6 +60,7 @@ figure img{
 	float:left;
 	max-width:400px;	
 	padding:15px 15px 15px 0;
+
 }
 
 .content h1{
@@ -79,6 +91,8 @@ ul.contact-list li.skype {background:#eee;color:#232323;font-size:14px;}
 
 ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
 
+
+
 .fb-container{margin-top:15px;}
 
 @media(max-width:600px){
@@ -92,3 +106,58 @@ ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
 }
 
 
+
+
+/************************************/
+.rotating {
+  -webkit-animation: rotating-function 40s linear infinite;
+     -moz-animation: rotating-function 40s linear infinite;
+      -ms-animation: rotating-function 40s linear infinite;
+       -o-animation: rotating-function 40s linear infinite;
+          animation: rotating-function 40s linear infinite;
+}
+
+@-webkit-keyframes rotating-function {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotating-function {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes rotating-function {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotating-function {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating-function {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
