@@ -13,6 +13,7 @@ main{
 	display: table-cell;
 	vertical-align: middle;
 	
+	
 
 }
 
@@ -31,14 +32,14 @@ main{
 
 	background: #E4E4E4 url('../images/background.jpg') no-repeat;
 	background-size: cover;
-
+	z-index: 100;
 }
 
 .gear-1{
 
 	position: absolute;
 	top:-23px;right:-23px;
-	opacity: .3;
+	opacity: .4;
 
 }
 
@@ -70,7 +71,7 @@ figure img{
 }
 
 .content h1{
-	margin:0 0;	
+	margin:0;	
 	font-size:29px;
 	font-weight: 700;
 }
@@ -110,8 +111,6 @@ ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
 
 	.fb-container{padding:0 15px 15px;}
 }
-
-
 
 
 /************************************/
