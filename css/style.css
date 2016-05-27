@@ -53,7 +53,7 @@ main{
 figure{
 	float:left;
 	margin:0;
-	padding-top:15px;
+	padding-top:22px;
 }
 
 figure img{
@@ -93,10 +93,11 @@ ul.contact-list li a{text-decoration: none;color:#fff;padding:3px 8px;border-rad
 ul.contact-list li.facebook a{background:#3953a0;}
 ul.contact-list li.linkedin a{background:#006baa;}
 ul.contact-list li.github a{background:#393939;}
+ul.contact-list li.blog a{background:#EE3553;}
 
-ul.contact-list li.skype {background:#eee;color:#232323;font-size:14px;}
+ul.contact-list li.skype {background:#3CC5E7;color:#fff;font-size:14px;}
 
-ul.contact-list i.fa-skype{color:#3cc5e7;font-size:18px;}
+ul.contact-list i.fa-skype{font-size:18px;}
 
 
 
